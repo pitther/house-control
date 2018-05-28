@@ -1,0 +1,21 @@
+{
+  "name": "remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^0.15.0",
+    "node-dht-sensor": "0.0.34",
+    "onoff": "^3.1.0",
+    "pigpio": "^1.1.0",
+    "pubnub": "^4.20.3",
+    "raspi-io": "^9.0.0",
+    "telebot": "^1.2.6"
+  }
+}
